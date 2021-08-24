@@ -11,7 +11,7 @@
 #elseif os(OSX)
   import AppKit
 #endif
-import MusicTheorySwift
+import MusicTheory
 
 // MARK: - FretboardNote
 
@@ -66,7 +66,7 @@ public enum FretboardDirection {
 // MARK: Fretboard
 
 /// Informs changes on fretboard.
-public protocol FretboardDelegate: class {
+public protocol FretboardDelegate: AnyObject {
 
   /// Informs `FretboardNotes` changes on fretboard when its `tuning`, `startIndex`, `count` or `notes` changes.
   ///

@@ -8,7 +8,7 @@
 
 import UIKit
 import Fretboard
-import MusicTheorySwift
+import MusicTheory
 
 class ViewController: UIViewController {
   @IBOutlet weak var fretboardView: FretboardView?

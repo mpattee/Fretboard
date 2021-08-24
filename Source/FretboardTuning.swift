@@ -11,7 +11,7 @@ import UIKit
 #elseif os(OSX)
 import AppKit
 #endif
-import MusicTheorySwift
+import MusicTheory
 
 // MARK: - FretboardTuning
 

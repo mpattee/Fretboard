@@ -11,7 +11,7 @@
 #elseif os(OSX)
   import AppKit
 #endif
-import MusicTheorySwift
+import MusicTheory
 import CenterTextLayer
 
 // MARK: - FretLabel
